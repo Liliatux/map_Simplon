@@ -33,8 +33,9 @@ class SimplonienController extends Controller
     		$simplonien->save();
     	}
 
+        $simploniens = Simplonien::all();
 
-    	return view('map');
+    	return view('map', ['simploniens' => $simploniens]);
     }
 
 }
