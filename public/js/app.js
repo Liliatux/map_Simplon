@@ -63,12 +63,11 @@
 /******/ 	__webpack_require__.p = "./";
 
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 39);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
-/******/ ({
-
-/***/ 10:
+/******/ ([
+/* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {(function () {
@@ -108,7 +107,7 @@
 			$.getJSON("./simploniensGeo.geojson", function (data) {
 
 				var markerIcon = L.icon({
-					iconUrl: 'marker.png',
+					iconUrl: '../marker.png',
 					iconSize: [40, 40]
 				});
 
@@ -149,27 +148,16 @@
 		app.init();
 	});
 })();
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-
-/***/ 11:
+/* 1 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-
-/***/ 39:
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(10);
-module.exports = __webpack_require__(11);
-
-
-/***/ }),
-
-/***/ 8:
+/* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -10395,6 +10383,13 @@ return jQuery;
 } );
 
 
-/***/ })
+/***/ }),
+/* 3 */
+/***/ (function(module, exports, __webpack_require__) {
 
-/******/ });
+__webpack_require__(0);
+module.exports = __webpack_require__(1);
+
+
+/***/ })
+/******/ ]);

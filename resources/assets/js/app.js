@@ -35,7 +35,7 @@
 			$.getJSON("./simploniensGeo.geojson",function(data){
 
 				var markerIcon = L.icon({
-					iconUrl: 'marker.png',
+					iconUrl: '../marker.png',
 					iconSize: [40,40]
 				});
 				
